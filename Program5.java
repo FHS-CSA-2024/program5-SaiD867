@@ -8,7 +8,6 @@ public class Program1
 
 int  miles = 289;
 int gallons = 9; 
-double mileage = 0.0;
       Double ob = new Double(mileage);
       System.out.println(ob);
 ob = (double) miles/gallons;
@@ -17,21 +16,18 @@ System.out.println("The Royale can go "+miles+" miles on "+ gallons+" gallons of
 
 miles = 412;
  gallons = 40; 
- mileage = 0.0;
 ob = (double) miles/gallons;
 System.out.println("The Koopa King can go "+miles+" miles on "+ gallons+" gallons of gas and the mileage is "+(Math.round(ob* 100.0)/100.0)+
 " miles per gallon");
 
  miles = 361;
  gallons = 18; 
- mileage = 0.0;
 ob = (double) miles/gallons;
 System.out.println("The Pipe Frame can go "+miles+" miles on "+ gallons+" gallons of gas and the mileage is "+(Math.round(ob* 100.0)/100.0)+
 " miles per gallon");
 
   miles = 161;
  gallons = 11; 
- mileage = 0.0;
 ob = (double) miles/gallons;
 System.out.println("The Bandwagon can go "+miles+" miles on "+ gallons+" gallons of gas and the mileage is "+(Math.round(ob* 100.0)/100.0)+
 " miles per gallon");
